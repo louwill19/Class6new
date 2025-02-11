@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/WookieWAF/autoScale' 
+                git branch: 'main', url: 'https://github.com/louwill19/Class6new.git' 
             }
         }
         stage('Initialize Terraform') {
